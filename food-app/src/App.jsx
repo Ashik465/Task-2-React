@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./component/Hero";
+import MenuCard from "./component/MenuCard";
 import NavBar from "./component/NavBar";
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <NavBar />
       {/* hero section */}
       <Hero />
+      {/* menu card */}
+      <MenuCard />
     </>
   );
 }
